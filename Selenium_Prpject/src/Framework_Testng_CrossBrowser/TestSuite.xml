@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="TestSuite" parallel="tests">
+
+<parameter name="appurl" value="https://www.cleartrip.com/"></parameter>
+
+<!-->Run test with chrome browser-->
+<test name="suite1" verbose="2">
+          <classes >
+                   <class name="Framework_Testng_CrossBrowser.crossbrowser_test">
+                           <parameter name = "browsername" value="chrome"></parameter>
+                   </class>
+          </classes>
+</test>
+
+<!-->Run test with firfox browser-->
+<test name="suite2" verbose="2">
+          <classes >
+                   <class name="Framework_Testng_CrossBrowser.crossbrowser_test">
+                           <parameter name = "browsername" value="firfox"></parameter>
+                   </class>
+          </classes>
+</test>
+</suite>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="FrameWork_Testng.Webdriver_TestngClass">
+        <methods>
+          <include name="verify_Signup_link"/>
+          <include name="verify_Messenger_link"/>
+          <include name="afterClass"/>
+          <include name="afterMethod"/>
+          <include name="beforeClass"/>
+          <include name="verify_Login_link"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- FrameWork_Testng.Webdriver_TestngClass -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

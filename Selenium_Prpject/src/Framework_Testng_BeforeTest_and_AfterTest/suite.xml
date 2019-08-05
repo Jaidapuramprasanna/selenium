@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="crossbrowser">
+         <test name ="chrome" verbose="2">
+                  <classes >
+                            <class name="Framework_Testng_BeforeTest_and_AfterTest.TestSuite1"></class>
+                            <class name="Framework_Testng_BeforeTest_and_AfterTest.TestSuite2"></class>
+                            <class name="Framework_Testng_BeforeTest_and_AfterTest.Test_for_chrome"></class>
+                            
+                            
+                  </classes>
+         </test>
+         
+         <test name ="firfox" verbose="2">
+                  <classes>
+                             <class name="Framework_Testng_BeforeTest_and_AfterTest.TestSuite1"></class>
+                            <class name="Framework_Testng_BeforeTest_and_AfterTest.TestSuite2"></class>
+                            <class name="Framework_Testng_BeforeTest_and_AfterTest.Test_for_firfox"></class>
+                           
+                  </classes>
+         </test>
+</suite>

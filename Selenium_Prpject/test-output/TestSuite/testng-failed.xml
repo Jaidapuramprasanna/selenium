@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [TestSuite]" parallel="tests">
+  <parameter name="appurl" value="https://www.cleartrip.com/"/>
+  <test name="suite2(failed)" parallel="tests">
+    <classes>
+      <class name="Framework_Testng_CrossBrowser.crossbrowser_test">
+        <parameter name="browsername" value="firfox"/>
+        <methods>
+          <include name="flight_search"/>
+          <include name="launchBrowser" invocation-numbers="0"/>
+          <include name="loadapp"/>
+        </methods>
+      </class> <!-- Framework_Testng_CrossBrowser.crossbrowser_test -->
+    </classes>
+  </test> <!-- suite2(failed) -->
+  <test name="suite1(failed)" parallel="tests">
+    <classes>
+      <class name="Framework_Testng_CrossBrowser.crossbrowser_test">
+        <parameter name="browsername" value="chrome"/>
+        <methods>
+          <include name="flight_search"/>
+          <include name="loadapp"/>
+        </methods>
+      </class> <!-- Framework_Testng_CrossBrowser.crossbrowser_test -->
+    </classes>
+  </test> <!-- suite1(failed) -->
+</suite> <!-- Failed suite [TestSuite] -->
