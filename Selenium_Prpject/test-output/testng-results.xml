@@ -1,168 +1,103 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="3" total="3" passed="0">
+<testng-results skipped="0" failed="0" total="3" passed="3">
   <reporter-output>
+    <line>
+      <![CDATA[precondition before method]]>
+    </line>
+    <line>
+      <![CDATA[tc001 executed]]>
+    </line>
+    <line>
+      <![CDATA[post condition after method]]>
+    </line>
+    <line>
+      <![CDATA[precondition before method]]>
+    </line>
+    <line>
+      <![CDATA[tc002 executed]]>
+    </line>
+    <line>
+      <![CDATA[post condition after method]]>
+    </line>
+    <line>
+      <![CDATA[precondition before method]]>
+    </line>
+    <line>
+      <![CDATA[tc003 executed]]>
+    </line>
+    <line>
+      <![CDATA[post condition after method]]>
+    </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="58210" started-at="2019-08-05T03:28:50Z" finished-at="2019-08-05T03:29:48Z">
+  <suite name="Default suite" duration-ms="91" started-at="2019-08-07T04:00:14Z" finished-at="2019-08-07T04:00:14Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="58210" started-at="2019-08-05T03:28:50Z" finished-at="2019-08-05T03:29:48Z">
-      <class name="FrameWork_Testng.Webdriver_TestngClass">
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:FrameWork_Testng.Webdriver_TestngClass@20e2cbe0]" name="beforeClass" is-config="true" duration-ms="16616" started-at="2019-08-05T08:58:50Z" finished-at="2019-08-05T08:59:06Z">
+    <test name="Default test" duration-ms="91" started-at="2019-08-07T04:00:14Z" finished-at="2019-08-07T04:00:14Z">
+      <class name="FrameWork_Testng.BeforeMethod_And_AfterMethod">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:FrameWork_Testng.BeforeMethod_And_AfterMethod@2a5ca609]" name="beforeMethod" is-config="true" duration-ms="8" started-at="2019-08-07T09:30:14Z" finished-at="2019-08-07T09:30:14Z">
           <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:FrameWork_Testng.Webdriver_TestngClass@20e2cbe0]" name="beforeMethod" is-config="true" duration-ms="13997" started-at="2019-08-05T08:59:06Z" finished-at="2019-08-05T08:59:20Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="FAIL" signature="verify_Login_link()[pri:0, instance:FrameWork_Testng.Webdriver_TestngClass@20e2cbe0]" name="verify_Login_link" duration-ms="2463" started-at="2019-08-05T08:59:20Z" finished-at="2019-08-05T08:59:23Z">
-          <exception class="junit.framework.ComparisonFailure">
-            <message>
-              <![CDATA[expected:<[Facebook – log in or sign up]> but was:<[Log in to Facebook | Facebook]>]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[junit.framework.ComparisonFailure: expected:<[Facebook – log in or sign up]> but was:<[Log in to Facebook | Facebook]>
-	at junit.framework.Assert.assertEquals(Assert.java:100)
-	at junit.framework.Assert.assertEquals(Assert.java:107)
-	at FrameWork_Testng.Webdriver_TestngClass.verify_Login_link(Webdriver_TestngClass.java:42)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:100)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:811)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1129)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
-	at org.testng.TestRunner.privateRun(TestRunner.java:746)
-	at org.testng.TestRunner.run(TestRunner.java:600)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1264)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1189)
-	at org.testng.TestNG.runSuites(TestNG.java:1104)
-	at org.testng.TestNG.run(TestNG.java:1076)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:152)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:57)
-]]>
-            </full-stacktrace>
-          </exception> <!-- junit.framework.ComparisonFailure -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verify_Login_link -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:FrameWork_Testng.Webdriver_TestngClass@20e2cbe0]" name="afterMethod" is-config="true" duration-ms="653" started-at="2019-08-05T08:59:23Z" finished-at="2019-08-05T08:59:24Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:FrameWork_Testng.Webdriver_TestngClass@20e2cbe0]" name="beforeMethod" is-config="true" duration-ms="5846" started-at="2019-08-05T08:59:24Z" finished-at="2019-08-05T08:59:29Z">
-          <reporter-output>
+            <line>
+              <![CDATA[precondition before method]]>
+            </line>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="FAIL" signature="verify_Messenger_link()[pri:0, instance:FrameWork_Testng.Webdriver_TestngClass@20e2cbe0]" name="verify_Messenger_link" duration-ms="7991" started-at="2019-08-05T08:59:29Z" finished-at="2019-08-05T08:59:37Z">
-          <exception class="junit.framework.ComparisonFailure">
-            <message>
-              <![CDATA[expected:<[https://messenger.com/]> but was:<[Messenger]>]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[junit.framework.ComparisonFailure: expected:<[https://messenger.com/]> but was:<[Messenger]>
-	at junit.framework.Assert.assertEquals(Assert.java:100)
-	at junit.framework.Assert.assertEquals(Assert.java:107)
-	at FrameWork_Testng.Webdriver_TestngClass.verify_Messenger_link(Webdriver_TestngClass.java:51)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:100)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:811)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1129)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
-	at org.testng.TestRunner.privateRun(TestRunner.java:746)
-	at org.testng.TestRunner.run(TestRunner.java:600)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1264)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1189)
-	at org.testng.TestNG.runSuites(TestNG.java:1104)
-	at org.testng.TestNG.run(TestNG.java:1076)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:152)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:57)
-]]>
-            </full-stacktrace>
-          </exception> <!-- junit.framework.ComparisonFailure -->
+        <test-method status="PASS" signature="tc001()[pri:0, instance:FrameWork_Testng.BeforeMethod_And_AfterMethod@2a5ca609]" name="tc001" duration-ms="14" started-at="2019-08-07T09:30:14Z" finished-at="2019-08-07T09:30:14Z">
           <reporter-output>
+            <line>
+              <![CDATA[tc001 executed]]>
+            </line>
           </reporter-output>
-        </test-method> <!-- verify_Messenger_link -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:FrameWork_Testng.Webdriver_TestngClass@20e2cbe0]" name="afterMethod" is-config="true" duration-ms="640" started-at="2019-08-05T08:59:37Z" finished-at="2019-08-05T08:59:38Z">
+        </test-method> <!-- tc001 -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:FrameWork_Testng.BeforeMethod_And_AfterMethod@2a5ca609]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-08-07T09:30:14Z" finished-at="2019-08-07T09:30:14Z">
           <reporter-output>
+            <line>
+              <![CDATA[post condition after method]]>
+            </line>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:FrameWork_Testng.Webdriver_TestngClass@20e2cbe0]" name="beforeMethod" is-config="true" duration-ms="5121" started-at="2019-08-05T08:59:38Z" finished-at="2019-08-05T08:59:43Z">
+        <test-method status="PASS" signature="tc002()[pri:0, instance:FrameWork_Testng.BeforeMethod_And_AfterMethod@2a5ca609]" name="tc002" duration-ms="10" started-at="2019-08-07T09:30:14Z" finished-at="2019-08-07T09:30:14Z">
           <reporter-output>
+            <line>
+              <![CDATA[tc002 executed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tc002 -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:FrameWork_Testng.BeforeMethod_And_AfterMethod@2a5ca609]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2019-08-07T09:30:14Z" finished-at="2019-08-07T09:30:14Z">
+          <reporter-output>
+            <line>
+              <![CDATA[precondition before method]]>
+            </line>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="FAIL" signature="verify_Signup_link()[pri:0, instance:FrameWork_Testng.Webdriver_TestngClass@20e2cbe0]" name="verify_Signup_link" duration-ms="3729" started-at="2019-08-05T08:59:43Z" finished-at="2019-08-05T08:59:47Z">
-          <exception class="junit.framework.ComparisonFailure">
-            <message>
-              <![CDATA[expected:<[Facebook – log in or sign up]> but was:<[Sign up for Facebook | Facebook]>]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[junit.framework.ComparisonFailure: expected:<[Facebook – log in or sign up]> but was:<[Sign up for Facebook | Facebook]>
-	at junit.framework.Assert.assertEquals(Assert.java:100)
-	at junit.framework.Assert.assertEquals(Assert.java:107)
-	at FrameWork_Testng.Webdriver_TestngClass.verify_Signup_link(Webdriver_TestngClass.java:33)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:100)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:811)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1129)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
-	at org.testng.TestRunner.privateRun(TestRunner.java:746)
-	at org.testng.TestRunner.run(TestRunner.java:600)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1264)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1189)
-	at org.testng.TestNG.runSuites(TestNG.java:1104)
-	at org.testng.TestNG.run(TestNG.java:1076)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:152)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:57)
-]]>
-            </full-stacktrace>
-          </exception> <!-- junit.framework.ComparisonFailure -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:FrameWork_Testng.BeforeMethod_And_AfterMethod@2a5ca609]" name="afterMethod" is-config="true" duration-ms="1" started-at="2019-08-07T09:30:14Z" finished-at="2019-08-07T09:30:14Z">
           <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verify_Signup_link -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:FrameWork_Testng.Webdriver_TestngClass@20e2cbe0]" name="afterMethod" is-config="true" duration-ms="513" started-at="2019-08-05T08:59:47Z" finished-at="2019-08-05T08:59:47Z">
-          <reporter-output>
+            <line>
+              <![CDATA[post condition after method]]>
+            </line>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:FrameWork_Testng.Webdriver_TestngClass@20e2cbe0]" name="afterClass" is-config="true" duration-ms="559" started-at="2019-08-05T08:59:47Z" finished-at="2019-08-05T08:59:48Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:FrameWork_Testng.BeforeMethod_And_AfterMethod@2a5ca609]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2019-08-07T09:30:14Z" finished-at="2019-08-07T09:30:14Z">
           <reporter-output>
+            <line>
+              <![CDATA[precondition before method]]>
+            </line>
           </reporter-output>
-        </test-method> <!-- afterClass -->
-      </class> <!-- FrameWork_Testng.Webdriver_TestngClass -->
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="tc003()[pri:0, instance:FrameWork_Testng.BeforeMethod_And_AfterMethod@2a5ca609]" name="tc003" duration-ms="4" started-at="2019-08-07T09:30:14Z" finished-at="2019-08-07T09:30:14Z">
+          <reporter-output>
+            <line>
+              <![CDATA[tc003 executed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tc003 -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:FrameWork_Testng.BeforeMethod_And_AfterMethod@2a5ca609]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-08-07T09:30:14Z" finished-at="2019-08-07T09:30:14Z">
+          <reporter-output>
+            <line>
+              <![CDATA[post condition after method]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- FrameWork_Testng.BeforeMethod_And_AfterMethod -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

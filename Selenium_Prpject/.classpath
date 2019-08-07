@@ -23,5 +23,9 @@
 	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
 	<classpathentry kind="con" path="org.testng.TESTNG_CONTAINER"/>
 	<classpathentry kind="lib" path="C:/Users/Chandu/Downloads/sikulixapi.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Chandu/Downloads/Compressed/mysql-connector-java-5.1.18.bundle.jar/mysql-connector-java-5.1.18.bundle.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Chandu/Downloads/mysql-connector-java-8.0.17/mysql-connector-java-8.0.17/mysql-connector-java-8.0.17.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Chandu/Downloads/extentreports-2.41.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Chandu/Downloads/freemarker-2.3.23.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
